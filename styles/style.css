@@ -296,6 +296,37 @@ body {
         padding: 10px 15px;
         border-radius: 5px;
 }
+.love_section{
+    width: 100%;
+   gap: 40px;
+   flex-direction: column;
+   margin-top: 40px;
+
+}
+.love_description_section{
+    width: 90%;
+    margin: 0 auto;
+}
+.version_container{
+   
+    margin-bottom: 25px;
+    width: 100%;
+  
+}
+.love_img{
+    width: 80%;
+    margin: 0 auto;
+  
+}
+.ten_year_btn{
+   font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: absolute;
+    left: -30px;
+    bottom: -8px;
+    
+}
 
 
 
