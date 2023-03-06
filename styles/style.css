@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,500;0,700;1,600&display=swap');
+
 * {
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
@@ -9,58 +10,138 @@ body {
     padding: 0px;
 }
 
-.header_area{
+.header_area {
     background-color: rgba(255, 144, 14, 0.1);
-    height: 500px;
+    height: 750px;
     max-width: 100%;
 }
-.navebar_area{
+
+.navebar_area {
     display: flex;
-   justify-content: space-between;
-   padding: 30px 100px 0px 100px;
+    justify-content: space-between;
+    padding: 30px 100px 0px 100px;
 }
-.navebar_area li{
+
+.navebar_area li {
     list-style: none;
 }
-.navbar_left{
+
+.navbar_left {
     font-family: 'Work Sans';
     font-weight: 700;
     color: rgba(66, 66, 66, 1);
     font-size: 25px;
     font-style: Bold;
 }
-.navbar_right{
+
+.navbar_right {
     display: flex;
     gap: 20px;
     font-family: 'Work Sans';
     font-size: 16px;
     color: #424242;
 }
-.bar_icon{
+
+.bar_icon {
     display: none;
+}
+
+/* Banner Sectiopns */
+.banner_description {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.artchitects_title {
+    font-family: 'Work Sans';
+    color: #131313;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.artchitects_description {
+    font-family: 'Work Sans';
+    color: #727272;
+    font-size: 16px;
+}
+
+.artchitects_btn {
+    padding: 15px 20px;
+    border: none;
+    background-color:
+        rgba(255, 144, 14, 1);
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.banner_img {
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+.banner_img img {
+    max-width: 100%;
 }
 
 /* Responsive area */
 @media screen and (max-width:576px) {
-    .navebar_area{
-       padding: 20px;
+    .header_area {
+        height: 470px;
     }
-    .header_area{
+
+    .navebar_area {
+        padding: 20px;
+    }
+
+    .header_area {
         width: 100%;
     }
-    .bar_icon{
+
+    .bar_icon {
         display: block;
         font-size: 35px;
     }
 
-    .navbar_right{
+    .navbar_right {
         flex-direction: column;
         gap: 10px;
         font-family: 'Work Sans';
         font-size: 16px;
         color: #424242;
     }
-    
 
-    
+    /* Banner section responsive */
+    .bannaer_sections {
+        width: 100%;
+
+    }
+
+    .banner_description {
+        max-width: 100%;
+    }
+
+    .artchitects_title {
+        font-size: 30px;
+
+    }
+
+    .artchitects_description {
+        font-size: 10px;
+        padding: 5px;
+    }
+
+    .artchitects_btn {
+        padding: 10px 10px;
+        margin-top: 5px;
+    }
+
+    .banner_img {
+        width: 80%;
+    }
+
+
+
 }
