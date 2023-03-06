@@ -110,23 +110,28 @@ body {
 .quick_description_section {
     width: 50%;
 }
-.quick_title{
+
+.quick_title {
     font-family: 'Work Sans';
     font-size: 35px;
 }
-.quick_list{
+
+.quick_list {
     color: rgba(114, 114, 114, 1);
 }
-.feature{
+
+.feature {
     color: rgba(255, 144, 14, 1);
     font-size: 30px;
 }
-.quick_description{
+
+.quick_description {
     font-family: 'Work Sans';
     color: #727272;
     font-size: 16px;
 }
-.quick_btn{
+
+.quick_btn {
     color: #FFFFFF;
     padding: 15px 20px;
     border: none;
@@ -189,6 +194,35 @@ body {
 
     .banner_img {
         width: 80%;
+    }
+
+    /* Quick Feature Ewsponsive */
+    .quick_feature {
+        flex-direction: column;
+        width: 100%;
+        gap: 0;
+        margin-top: 140px;
+    }
+
+    .quick_img_sections {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 80%;
+        gap: 20px;
+    }
+
+    .quick_description_section {
+        width: 80%;
+    }
+
+    .quick_title {
+        font-size: 30px;
+    }
+
+    .quick_btn {
+        padding: 10px 15px;
+        border-radius: 5px;
+
     }
 
 
