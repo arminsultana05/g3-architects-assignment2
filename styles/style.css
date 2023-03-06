@@ -138,6 +138,79 @@ body {
     background-color: rgba(255, 144, 14, 1);
     border-radius: 8px;
 }
+/* Love Section styles */
+.love_section{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+    margin-top: 100px;
+}
+.love_description_section{
+    width: 50%;
+}
+.love_title{
+    color: rgba(19, 19, 19, 1);
+    font-family: 'Work Sans';
+    font-size: 35px;
+    border-left: 2px solid #FF900E;
+    padding-left: 10px;
+    border-radius: 2px;
+}
+.love_description{
+    color: #727272;
+    font-family: 'Work Sans';
+    font-size: 16px;
+}
+.version_container{
+    background-color: #FFFFFF;
+    border-radius:8px; 
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.06);
+    padding: 5px;
+    margin-bottom: 25px;
+    width: 90%;
+  
+}
+.version_container p{
+    font-family: 'Work Sans';
+    font-size: 16px;
+    color: #727272;
+   
+
+}
+.big_title{
+    font-family: 'Work Sans';
+    color: rgba(19, 19, 19, 1);
+    font-weight: bolder;
+    font-size: 18px;
+   
+
+}
+.love_img{
+    width: 50%;
+    position: relative;
+}
+.love_img img{
+    width: 100%;
+    position: relative;
+}
+.ten_year_btn{
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #FF900E;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    position: absolute;
+    left: -50px;
+    bottom: -8px;
+    
+}
+.btn_ex{
+    font-size: 16px;
+}
+
 
 
 /* Responsive area */
@@ -222,8 +295,7 @@ body {
     .quick_btn {
         padding: 10px 15px;
         border-radius: 5px;
-
-    }
+}
 
 
 
